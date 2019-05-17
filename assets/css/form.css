@@ -1,0 +1,199 @@
+.apply-form .form-control {
+    border: 1px solid #e9e9e9;
+    border-radius: 0;
+}
+
+.apply-form .has-error .form-control {
+    -webkit-box-shadow: 2px 2px 5px 0 #f8b2b2;
+    box-shadow: 2px 2px 5px 0 #f8b2b2;
+}
+
+.apply-form .has-error .form-control:focus {
+    border: 1px solid #e9e9e9;
+    -webkit-box-shadow: 2px 2px 5px 0 #f8b2b2;
+    box-shadow: 2px 2px 5px 0 #f8b2b2;
+}
+
+.apply-form .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #7bcf44;
+}
+
+.apply-form .form-group {
+    margin-bottom: 30px;
+}
+
+.apply-form input,
+.apply-form textarea {
+    font-size: 16px;
+    color: #7f7f7f;
+    height: 45px;
+    outline: none;
+    border: 1px solid #26476c;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.apply-form textarea {
+    min-height: 133px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.apply-form input:focus {
+    border: 1px solid #f9ba48;
+}
+
+.apply-form textarea:focus {
+    border: 1px solid #f9ba48;
+}
+
+.apply-form .form-btn {
+    text-align: center;
+   
+    bottom: 0;
+    right: 15px;
+    margin-bottom: 30px;
+}
+
+.apply-form .apply-form-btn {
+    padding: 10px 50px;
+    border-radius: 0;
+    border: 0;
+    background: #26476c;
+    color: #fff;
+}
+
+.apply-form .apply-form-btn:hover {
+    background: #f9ba48;
+}
+
+.apply-form .apply-form-btn:focus {
+    border: 0;
+}
+
+.apply-form input::-webkit-input-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form input::-moz-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form input:-ms-input-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form input:-moz-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form textarea::-webkit-input-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form textarea::-moz-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form textarea:-ms-input-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form textarea:-moz-placeholder {
+    color: #b7b7b7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.apply-form input:focus::-webkit-input-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.apply-form input:focus::-moz-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.apply-form input:focus:-ms-input-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.apply-form input:focus:-moz-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.apply-form textarea:focus::-webkit-input-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.apply-form textarea:focus::-moz-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.apply-form textarea:focus:-ms-input-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.apply-form textarea:focus:-moz-placeholder {
+    color: #f9ba48;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+label{
+    color: #26466c;
+    font-size: 20px;
+    padding-left:5px;
+}
+.contact-form-container{
+   padding-left: 50px;
+   padding-right:50px;
+
+}
+.select-bar{
+    height: 45px;
+}
